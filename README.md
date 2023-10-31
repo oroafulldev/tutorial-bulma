@@ -8,4 +8,6 @@ Tópicos estudiados
   * Usar elementos &lt;section&gt; y &lt;container&gt;.
   * Crear barra de menú para tamaños móviles con funcionalidad toggle.
   * Crear _breadcrumbs_.
-  * 
+  * Crear contenido _responsive_.
+  * Creación de pestañas funcionales.
+  * Crear botones y asignarles estilos.
