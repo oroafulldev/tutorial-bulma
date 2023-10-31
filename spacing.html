@@ -51,18 +51,61 @@
     <!-- Product Info using Grid -->
     <section class="section">
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-3">
-                    <h1 class="is-size-1 title">Docker</h1>
-                    <h2 class="is-size-2 subtitle">Dark Roast</h2>
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-3-mobile is-size-1-desktop title">Correas</h1>
+                    <h2 class="is-size-4-mobile is-size-2-desktop subtitle">Casuales para Caballeros</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolorum, quibusdam ipsa facilis doloremque ullam dolores possimus maxime modi provident.</p>
                 </div>
-                <div class="column is-5 has-text-centered">
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
                     <img src="./images/correas.jpg" alt="Correas de cuero" class="px-6">
                 </div>
-                <div class="column is-4">
+                <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 mb-4">$20</div>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, consequuntur.</p>
+                    <button class="button is-primary is-rounded">Al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-variable">
+                <div class="column is-7-tablet">
+                    <!-- Contenido en pestañas -->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-info">
+                                <a>Delivery Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit incidunt sapiente quasi est nemo neque alias autem dolor, itaque repellendus! At praesentium neque illum ipsum iste vel fuga odit nihil?</p>
+                        </div>
+                        <div class="is-hidden" id="delivery-info">
+                            <h3 class="is-size-5 title">Delivery Info</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae cupiditate ratione suscipit laborum placeat? Similique et magnam accusamus delectus quam!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-5-tablet">
+                    <!-- Caja de Texto -->
+                    <div class="message">
+                        <div class="message-header">
+                            <p>Earn points buying products for women</p>
+                        </div>
+                        <div class="message-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis iste aut enim quod laboriosam quos voluptas corporis magnam, similique sapiente et sit debitis, mollitia deleniti consequuntur, suscipit pariatur. Nulla, eos!</p>
+                            <div class="has-text-centered"><button class="button mt-5">Regístrese</button></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
