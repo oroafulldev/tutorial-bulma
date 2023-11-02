@@ -11,3 +11,5 @@ Tópicos estudiados
   * Crear contenido _responsive_.
   * Creación de pestañas funcionales.
   * Crear botones y asignarles estilos.
+  * Crear tarjetas (cards).
+  * Crear modales funcionales.
