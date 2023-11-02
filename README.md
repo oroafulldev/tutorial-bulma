@@ -13,3 +13,6 @@ Tópicos estudiados
   * Crear botones y asignarles estilos.
   * Crear tarjetas (cards).
   * Crear modales funcionales.
+  * Crear formularios básicos.
+  * Crear listas desplegables.
+  * Crear footer.

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial Bulma Traversy Media</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
     <script src="https://kit.fontawesome.com/26511df1ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,9 +31,14 @@
 
     <!-- Breadcrumbs -->
     <div class="section pt-4 pb-0">
-        <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+        <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
             <ul class="container">
-                <li><a href="#" class="has-text-grey">Home</a></li>
+                <li>
+                    <a href="#" class="has-text-grey">
+                        <span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span>
+                        <span>Home</span>
+                    </a>
+                </li>
                 <li><a href="#" class="has-text-grey">About Us</a></li>
                 <li><a href="#" class="has-text-grey">Shop</a></li>
                 <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
@@ -63,7 +69,19 @@
                 <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 mb-4">$20</div>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, consequuntur.</p>
-                    <button class="button is-primary is-rounded">Al Carrito</button>
+                    <form>
+                        <div class="field">
+                            <div class="control mb-6">
+                                <div class="select">
+                                    <select>
+                                        <option value="marron">Marrón</option>
+                                        <option value="negra">Negra</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button is-primary is-rounded">Al Carrito</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -99,7 +117,7 @@
                     <!-- Caja de Texto -->
                     <div class="message">
                         <div class="message-header">
-                            <p>Earn points buying products for women</p>
+                            <p>¡Gane puntos de afiliado!</p>
                         </div>
                         <div class="message-body">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis iste aut enim quod laboriosam quos voluptas corporis magnam, similique sapiente et sit debitis, mollitia deleniti consequuntur, suscipit pariatur. Nulla, eos!</p>
@@ -126,7 +144,8 @@
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
-                                <a href="" class="has-text-grey">Mostrar</a>
+                                <span><i class="fas fa-plus"></i></span>
+                                <span><a href="" class="has-text-grey">Mostrar</a></span>
                             </p>
                         </footer>
                     </div>
@@ -173,10 +192,41 @@
 
         </div>
         <div class="modal-content has-background-white py-5 px-5">
-            <h3 class="title mb-6">Únase al club</h3>
+            <h3 class="title mb-6">Puntos por afiliarse</h3>
+            <p>Obtenga puntos en su cuenta por afiliarse a nuestros servicios.</p>
+            <form>
+                <div class="field">
+                    <label class="label pt-4">Nombre:</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label pt-4">Email:</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Email">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox"><span class="pl-2">Estoy de acuerdo con los <a href="">Términos y Condiciones</span></a>.
+                        </label>
+                    </div>
+                </div>
+                <div class="mt-6 has-text-centered">
+                    <button class="button is-warning">Regístrese</button>
+                </div>
+            </form>
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p> &copy;Copyright ROA Leatherworks 2023</p>
+        </div>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 </html>
